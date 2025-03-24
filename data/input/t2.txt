@@ -1,0 +1,23 @@
+E: Bom dia, João. Agradeço a sua disponibilidade em participar desta entrevista. Como conversamos, o objetivo é entender melhor o impacto das novas tecnologias no seu dia a dia como coordenador. Podemos começar?
+
+P: Bom dia! Sim, podemos começar.
+
+E: Ótimo. Para começar, poderia me contar um pouco sobre como você tem visto o uso das tecnologias em sala de aula pelos professores?
+
+P: Vejo que tem aumentado bastante, principalmente depois da pandemia. Muitos professores descobriram novas ferramentas e metodologias durante o ensino remoto e continuaram usando no presencial. Mas ainda há uma grande variação, alguns usam com muita desenvoltura, outros ainda têm receio.
+
+E: E quais tecnologias você diria que são as mais utilizadas pelos professores?
+
+P: Além do básico, como projetor e internet, vejo muitos usando plataformas de videoconferência para atividades colaborativas, aplicativos de criação de conteúdo, como apresentações interativas e vídeos curtos, e ferramentas de gamificação para tornar as aulas mais divertidas.
+
+E: Você percebe alguma diferença no aprendizado dos alunos com o uso dessas tecnologias?
+
+P: Sem dúvida. Os alunos estão mais engajados, mais motivados a aprender. As tecnologias permitem que eles explorem o conteúdo de forma mais ativa, que criem, que compartilhem. Mas é importante lembrar que a tecnologia é apenas uma ferramenta, o professor continua sendo fundamental para guiar o processo de aprendizagem.
+
+E: E quais são os principais desafios que você tem observado em relação ao uso das tecnologias em sala de aula?
+
+P: A falta de infraestrutura ainda é um grande problema. Muitas escolas não têm equipamentos suficientes ou internet de qualidade. Outro desafio é a formação dos professores. Nem todos se sentem preparados para usar as tecnologias de forma eficaz. E também há a questão da desigualdade, nem todos os alunos têm acesso à internet e a dispositivos em casa, o que pode gerar exclusão.
+
+E: E como você acha que a escola poderia te ajudar a superar esses desafios?
+
+P: Investir em infraestrutura é fundamental, mas também é preciso investir na formação continuada dos professores. Oferecer cursos, workshops, mentorias... E criar espaços de troca de experiências, onde os professores possam compartilhar suas práticas e aprender uns com os outros. Além disso, é importante pensar em estratégias para reduzir a desigualdade, como oferecer acesso à internet e a dispositivos para os alunos que precisam.

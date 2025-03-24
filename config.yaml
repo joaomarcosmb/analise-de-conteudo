@@ -1,0 +1,22 @@
+# Diretórios
+input_dir: "data/input"
+output_dir: "data/output"
+
+# Configurações do LLM
+llm_endpoint: "http://0.0.0.0:11434/v1"
+llm_model: "gemma3"
+
+# Parâmetros de análise
+num_clusters: 5
+min_word_freq: 2
+max_df: 0.85
+
+# Lista de stopwords adicionais em português
+stop_words:
+  - "né"
+  - "tipo"
+  - "assim"
+  - "então"
+  - "aí"
+  - "tá"
+  - "pra"
