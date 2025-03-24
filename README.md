@@ -2,6 +2,8 @@
 
 Este projeto implementa uma versão automatizada da técnica de Análise de Conteúdo de Laurence Bardin utilizando Processamento de Linguagem Natural (PLN) e Inteligência Artificial. A ferramenta auxilia pesquisadores na análise sistemática de conteúdo textual, seguindo as três fases principais propostas por Bardin: pré-análise, exploração do material e tratamento dos resultados/interpretação.
 
+O uso da Inteligência Artificial é feito de forma local, isto é, o LLM (Large Language Model) é operado em uma máquina proprietária (localmente), garantindo o controle e a segurança dos dados analisados. 
+
 ## 🎯 Características Principais
 
 - Implementação automatizada das três fases da Análise de Conteúdo de Bardin
@@ -22,6 +24,8 @@ Este projeto implementa uma versão automatizada da técnica de Análise de Cont
 - matplotlib
 - wordcloud
 - OpenAI API (opcional)
+
+Nota: O modelo utilizado neste exemplo é o Gemma 3, o modelo de linguagem de código aberto do Google. A ferramenta utilizada para rodar o LLM localmente foi o [Ollama](https://ollama.com/).
 
 ## 🚀 Instalação
 
