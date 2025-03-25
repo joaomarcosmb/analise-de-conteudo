@@ -1,15 +1,15 @@
 # Diretórios
-input_dir: "data/input"
-output_dir: "data/output"
+input_dir: "data/input" # Diretório de entrada
+output_dir: "data/output" # Diretório de saída
 
 # Configurações do LLM
-llm_endpoint: "http://0.0.0.0:11434/v1"
-llm_model: "gemma3"
+llm_endpoint: "http://0.0.0.0:11434/v1" # Endereço do servidor LLM
+llm_model: "gemma3" # Modelo do LLM
 
 # Parâmetros de análise
-num_clusters: 5
-min_word_freq: 2
-max_df: 0.85
+num_clusters: 5 # Número de clusters
+min_word_freq: 2 # Frequência mínima de palavras
+max_df: 0.85 # Frequência máxima de documentos
 
 # Lista de stopwords adicionais em português
 stop_words:

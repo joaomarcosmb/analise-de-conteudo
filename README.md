@@ -1,8 +1,10 @@
 # Análise de Conteúdo Automatizada com PLN e IA
 
-Este projeto implementa uma versão automatizada da técnica de Análise de Conteúdo de Laurence Bardin utilizando Processamento de Linguagem Natural (PLN) e Inteligência Artificial. A ferramenta auxilia pesquisadores na análise sistemática de conteúdo textual, seguindo as três fases principais propostas por Bardin: pré-análise, exploração do material e tratamento dos resultados/interpretação.
+Este projeto implementa uma versão automatizada da técnica de Análise de Conteúdo de Laurence Bardin utilizando Processamento de Linguagem Natural (PLN) e Inteligência Artificial. A ferramenta auxilia pesquisadores na análise sistemática de conteúdo textual de transcrições de entrevistas*, seguindo as três fases principais propostas por Bardin: pré-análise, exploração do material e tratamento dos resultados/interpretação.
 
 O uso da Inteligência Artificial é feito de forma local, isto é, o LLM (Large Language Model) é operado em uma máquina proprietária (localmente), garantindo o controle e a segurança dos dados analisados. 
+
+\* A ferramenta pode ser adaptada para outros tipos de textos, como artigos, relatórios, etc.
 
 ## 🎯 Características Principais
 
@@ -119,6 +121,15 @@ O sistema gera os seguintes tipos de análises e visualizações:
 - Heatmap da distribuição de temas por documento
 - Gráfico de barras dos temas mais relevantes
 - Relatórios detalhados em formato estruturado
+
+## 💭 Outras Considerações
+- O número de arquivos de entrada não pode ser menor que a quantidade de clusters (`num_clusters`) configurada no `config.yaml`. O não cumprimento dessa condição pode resultar em erros.
+- Os parâmetros de análise no `config.yaml` têm impactos significativos nos resultados:
+  - `num_clusters`: Um número maior de clusters pode resultar em temas mais específicos e detalhados, mas pode também fragmentar demais a análise. Um número menor tende a gerar temas mais abrangentes e generalistas.
+  - `min_word_freq`: Aumentar este valor filtra palavras menos frequentes, focando apenas nos termos mais relevantes. Reduzir pode incluir termos mais raros, mas pode introduzir ruído na análise.
+  - `max_df`: Este parâmetro controla a frequência máxima de documentos em que uma palavra pode aparecer. Reduzir este valor ajuda a identificar termos mais específicos, enquanto aumentar permite capturar palavras mais comuns entre os documentos.
+- Os exemplos de arquivos de texto estão disponíveis na pasta `data` para avaliação. Na pasta `input` há as transcrições de entrevistas que foram usadas como exemplos, e na pasta `output` há os resultados da análise desses arquivos.
+- A análise de conteúdo é uma técnica **qualitativa**, e, por mais que haja uma certa automação desse processo com a ajuda da IA, **a interpretação dos resultados é de responsabilidade do pesquisador**.
 
 ## 🤝 Contribuindo
 
