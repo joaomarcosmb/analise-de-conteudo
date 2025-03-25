@@ -44,6 +44,13 @@ class ContentExploration:
     def _identify_themes(self, tfidf_matrix, feature_names):
         """Identifica temas usando clustering"""
         num_clusters = self.config.get("num_clusters", 5)
+        num_documents = len(self.corpus)
+
+        if num_clusters > num_documents:
+            raise ValueError(
+                f"O número de clusters ({num_clusters}) não pode ser maior que o número de documentos ({num_documents}). "
+                f"Por favor, ajuste o parâmetro 'num_clusters' no arquivo de configuração para um valor menor ou igual a {num_documents}."
+            )
 
         # Aplicar K-means
         km = KMeans(n_clusters=num_clusters, random_state=42)
